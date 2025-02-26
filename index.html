@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+    <meta charset="UTF-8">
+    <title>ವಿನಾಯಕ ಗೆಳೆಯರ ಬಲಯ!</title>
+    <style>
+        body {
+            background: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            font-family: 'Noto Serif Kannada', Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .kannada-text {
+            font-size: 2.5em;
+            margin: 30px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .friend-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 5px solid #f1c40f;
+            margin: 20px auto;
+            box-shadow: 0 0 20px rgba(241, 196, 15, 0.5);
+        }
+
+        audio {
+            margin: 30px 0;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <h1 class="kannada-text">ಶ್ರೀ ವಿನಾಯಕ ಗೆಳೆಯರ ಬಲಯ(ರಿ)!</h1>
+    
+    <img src="friend-photo.jpg" alt="Sanjay" class="friend-photo">
+    
+    <audio controls autoplay loop>
+        <source src="https://www.example.com/path-to-na-drivara-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // Add background animation
+        document.body.style.background = `linear-gradient(45deg, 
+            #${Math.floor(Math.random()*16777215).toString(16)}, 
+            #${Math.floor(Math.random()*16777215).toString(16)})`;
+    </script>
+</body>
+</html>
